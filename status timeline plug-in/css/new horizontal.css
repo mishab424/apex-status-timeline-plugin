@@ -1,0 +1,101 @@
+.timeline {
+      position: relative;
+      margin: 0 auto;
+      padding: 20px 0;
+      width: 90%;
+      max-width: 800px;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 40px;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: linear-gradient(to bottom, #ccc, #ccc);
+    }
+
+    .timeline-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 40px;
+      position: relative;
+    }
+
+    .timeline-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #ccc;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      position: absolute;
+      left: 20px;
+      z-index: 1;
+    }
+
+    .timeline-content {
+      margin-left: 80px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+      display: flex;
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .timeline-date {
+      background: #7d3cff;
+      color: white;
+      padding: 20px;
+      width: 150px;
+      font-weight: 600;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .timeline-details {
+      padding: 20px;
+      flex-grow: 1;
+    }
+
+    .timeline-details h3 {
+      margin: 0 0 10px;
+      font-size: 16px;
+      color: #333;
+      text-transform: uppercase;
+    }
+
+    .timeline-details p {
+      margin: 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    /* Custom colors per event */
+    .bg-purple { background: #9b59b6; }
+    .bg-blue { background: #3498db; }
+    .bg-green { background: #2ecc71; }
+    .bg-pink { background: #e91e63; }
+
+    .timeline-date.bg-purple { background: #9b59b6; }
+    .timeline-date.bg-blue { background: #3498db; }
+    .timeline-date.bg-green { background: #2ecc71; }
+    .timeline-date.bg-pink { background: #e91e63; }
+
+    @media (max-width: 600px) {
+      .timeline-content {
+        flex-direction: column;
+      }
+      .timeline-date {
+        width: 100%;
+        justify-content: flex-start;
+        padding: 15px;
+      }
+    }
