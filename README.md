@@ -79,4 +79,10 @@ Colors: User-defined or fallback defaults
 
 
 
+
+# Oracle APEX Status Timeline Plug-in
+
+This plug-in displays a modern, responsive status timeline in Oracle APEX...
+Keywords: APEX timeline, status tracker, progress bar, horizontal timeline, vertical timeline, Oracle APEX plug-in.
+
 See the [LICENSE](./LICENSE) file for details.
