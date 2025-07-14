@@ -14,7 +14,6 @@ A modern, responsive, and customizable **Status Timeline** plug-in for Oracle AP
 - ✨ Font Awesome 6 support
 
 ---
-<img width="1899" height="917" alt="Screenshot 2025-07-11 095425" src="https://github.com/user-attachments/assets/a973778a-a5cf-4ec7-99fb-a99a2ca3a20e" />
 
 ## 🚀 Installation
 
@@ -67,7 +66,6 @@ WHERE APP_ID=1
   </li>
 </ul>
 
-<img src="https://raw.githubusercontent.com/mishab424/Dashboard-with-Chart-and-Cards/refs/heads/main/images/Screenshot%202025-07-10%20171856.png">
 
 CSS Classes
 Already included in the plug-in:
