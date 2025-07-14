@@ -66,7 +66,7 @@ WHERE APP_ID=1
   </li>
 </ul>
 
-https://raw.githubusercontent.com/mishab424/Dashboard-with-Chart-and-Cards/refs/heads/main/images/Screenshot%202025-07-10%20171856.png
+<img src="https://raw.githubusercontent.com/mishab424/Dashboard-with-Chart-and-Cards/refs/heads/main/images/Screenshot%202025-07-10%20171856.png">
 
 CSS Classes
 Already included in the plug-in:
